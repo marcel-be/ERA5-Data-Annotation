@@ -2,7 +2,7 @@
 
 This repository contains R scripts to download ERA5 reanalysis weather data from the Copernicus Climate Data Store (CDS) and annotate GPS tracking data with environmental variables. Download ERA5 variables and precisely link them to your point-coordinate data (lat, lon, time) to bridge your measurements with detailed historical atmospheric conditions (point coordinates).
 
-This version is based on the work by [Kamran Safi](https://github.com/kamransafi) and has been modified to work directly with **plain CSV files / Dataframes** and work with large datasets and larfa ERA5 datafiles. It **does not** require `move2` or `track` objects. It utilizes `data.table`, `terra`, and `future.apply` for fast, memory-efficient, parallel processing of large datasets.
+This version is based on the work by [Kamran Safi](https://github.com/kamransafi) and has been modified to work directly with **plain CSV files / Dataframes** and work with large datasets and large ERA5 datafiles. It **does not** require `move2` or `track` objects. It utilizes `data.table`, `terra`, and `future.apply` for fast, memory-efficient, parallel processing of large datasets.
 
 ## ⚠️ Current Limitations
 
